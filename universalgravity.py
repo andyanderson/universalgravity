@@ -4,3 +4,11 @@ function g(r):
 	G = 6.673e-11 // m**3/(kg*s**2)
 	M = 5.972e4	// kg
 	return G*M/r**2
+	
+function gsurface(planet):
+	"""Calculate surface gravity of a planet, using (mass, radius) as input"""
+	M = planet[0]
+	R = planet[1]
+	G = 6.673e-11 // m**3/(kg*s**2)
+	return G*M/R**2
+	
