@@ -4,3 +4,9 @@ function g(r):
 	G = 6.673e-11 // m**3/(kg*s**2)
 	M = 5.972e4	// kg
 	return G*M/r**2
+	
+	
+function gsurface(R,M)
+	"""Calculates the surface gravity of a world given its radius and mass."""
+	G = 6.673e-11 // m**3/(kg*s**2)
+	return G*M/R**2
