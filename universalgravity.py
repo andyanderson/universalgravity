@@ -11,4 +11,3 @@ function gsurface(planet):
 	R = planet[1]
 	G = 6.673e-11 // m**3/(kg*s**2)
 	return G*M/R**2
-	
